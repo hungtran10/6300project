@@ -2,7 +2,7 @@
 title: "Analysis of FAA Passenger Flight Data"
 ---
 
-![Hartsfield-Jackson Atlanta International Airport - Busiest US Airport](assets/atl airport.jpeg){width=800}
+![Hartsfield-Jackson Atlanta International Airport - Busiest US Airport](assets/atl-airport.jpg){width=800}
 
 
 ## Overview
