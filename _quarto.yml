@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: 5100-Project
+
+website:
+  title: "DSAN-5100: Project"
+  favicon: "assets/gu-logo.png"
+  navbar:
+    left:
+      - href: https://htran.georgetown.domains/Homepage/
+        text: Home
+      - href: index.qmd
+        text: Project Overview
+      - href: finalreport.qmd
+        text: Final Report
+
+format:
+  html:
+    theme: zephyr
+    toc: true 
+    toc-location: left
+
+
+

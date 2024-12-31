@@ -1,0 +1,32 @@
+---
+title: "Analysis of FAA Passenger Flight Data"
+---
+
+![Hartsfield-Jackson Atlanta International Airport - Busiest US Airport](assets/atl airport.jpeg){width=800}
+
+
+## Overview
+
+The Bureau of Transportation Statistics (BTS), a division of the Department of Transportation (DOT), serves as a primary source of comprehensive data and analysis on U.S. transportation systems. The BTS collects, analyzes, and disseminates data across a broad spectrum of transportation domains, including commercial aviation, multimodal freight, energy consumption, and safety. This report focuses specifically on flight data from November 2018, collected from the "BTS Reporting Carrier On-Time Performance (1987-Present)" database. This dataset, compiled from certified air carriers representing at least 1% of domestic scheduled passenger revenues, encompasses key performance indicators such as carrier codes, flight numbers, airport codes, scheduled and actual departure and arrival times, delay durations, cancellation occurrences, and associated reasons.
+
+This analysis utilizes Federal Aviation Administration (FAA) flight data for November 2018 to examine departure and arrival delays by airline and airport, the temporal distribution of flights throughout the month, and trends in flight cancellations. Structured Query Language (SQL) was employed for data retrieval and manipulation from the database, while the R programming language, specifically the ggplot2 package, was used to generate visualizations. This methodological approach enables a detailed examination of flight performance and operational challenges encountered during that month.
+
+## Methods
+
+**Structured Query Language (SQL):** SQL is a standardized language designed for managing and analyzing data residing in relational database management systems. It facilitates efficient data retrieval, filtering, aggregation, and manipulation through structured queries. In data-driven projects, SQL is instrumental for precise extraction and transformation of information tailored to specific analytical objectives. Its capabilities enable efficient handling of large datasets and provide the flexibility to tailor data extraction to the needs of the analysis.
+
+**R Programming Language:** R is a widely adopted programming language for statistical computing, data analysis, and graphical visualization. Its extensive ecosystem of packages provides users with robust tools for data cleaning, manipulation, analysis, and the creation of high-quality visualizations for effective communication of findings. The language's focus on statistical modeling and data exploration makes it a powerful asset for analytical projects. In this study, the ggplot2 package, a well-known tool for generating customizable and publication-ready graphics, was  utilized to visualize trends in departure and arrival delays, flight distribution patterns, and the distribution of flight cancellation reasons.
+
+
+### Summary of Flight Performance Insights - November 2018
+
+This report examines the DOT's Airline On-Time Performance Data for November 2018, uncovering notable trends and statistics about flights during the month. Key findings include:
+
+- **Longest Delay:** An American Airlines flight was delayed by an astounding 1,787 minutes.
+- **Earliest Departure:** A United Airlines flight took off 122 minutes ahead of schedule.
+- **Busiest and Least Busy Days:** Friday saw the highest flight volume, while Saturday was the quietest.
+- **Major Delays:** ExpressJet and SkyWest Airlines experienced the longest average departure delays, primarily from Quad City International and Plattsburgh International Airports, respectively.
+- **Cancellation Leader:** Chicago O’Hare International had the most flight cancellations, which may be attributed to weather conditions.
+- **Peak Travel Day:** November 27 recorded the highest average flight count, likely due to post-Thanksgiving travel.
+
+These insights provide a snapshot of flight trends, highlighting airlines, airports, and scheduling patterns that travelers and industry stakeholders can learn from during that month.
