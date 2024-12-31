@@ -1,9 +1,9 @@
 project:
   type: website
-  output-dir: 5100-Project
+  output-dir: 6300-Project
 
 website:
-  title: "DSAN-5100: Project"
+  title: "DSAN-6300: Project"
   favicon: "assets/gu-logo.png"
   navbar:
     left:
